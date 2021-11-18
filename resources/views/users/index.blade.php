@@ -21,7 +21,7 @@
                             <td>{{ $usuario->email }}</td>
                             <td>
                                 <button class="btn btn-secondary"> 
-                                    <i class="fa fa-trash"></i> 
+                                    <i class="fa fa-trash"> Editar</i> 
                                 </button>
                                 |
                                 <form 
@@ -37,6 +37,7 @@
                                         value="delete"
                                         class="btn btn-danger"
                                     >
+                                    Eliminar
                                     </button>
                                 </form>
                             </td>
