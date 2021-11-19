@@ -20,10 +20,6 @@
                             <td>{{ $usuario->name }}</td>
                             <td>{{ $usuario->email }}</td>
                             <td>
-                                <button class="btn btn-secondary"> 
-                                    <i class="fa fa-trash"> Editar</i> 
-                                </button>
-                                |
                                 <form 
                                     action="{{url('/users/'.$usuario->id)}}"
                                     method="POST"
